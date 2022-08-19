@@ -21,7 +21,7 @@
         <a href="#home" class="nav__logo">Minawo</a>
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list" >
-                <li class="nav__item">
+                <li class="nav__item ">
                     <a class="nav__link" href="#home">Home</a>
                 </li>
                 <li class="nav__item">
@@ -33,7 +33,18 @@
                 <li class="nav__item">
                     <a class="nav__link" href="#experience">Experience</a>
                 </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#video">video</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#places">Places</a>
+                </li>
             </ul>
+            <div class="nav__dark">
+            <!-- THEME CHANGE COLOR-->
+                <span class="change-theme-name">Dark Mode </span>
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
             <i class="ri-close-line nav__close" id="nav-close"></i>
         </div>
         <div class="nav__toggle" id="nav-toggle">
@@ -140,9 +151,9 @@
     </section>
 
     <!--==============EXPERIENCE================-->
-    <section class="experience section container">
+    <section class="experience section container" id="experience">
         <h2 class="section-title">With Our Experience <br> We Will Serve You</h2>
-        <div class="experience__container container grid"  id="experience">
+        <div class="experience__container container grid"  >
             <div class="experience__content grid">
                 <div class="experience__data">
                     <h2 class="experience__number">20</h2>
@@ -168,8 +179,8 @@
         </div>
     </section>
 
-    <!--==============EXPERIENCE================-->
-    <section class="experience container section" id="video">
+    <!--==============video================-->
+    <section class="experience container section " id="video">
         <h2 class="section-title">Video Tour</h2>
         <div class="video__container container">
             <p class="video__description">
@@ -187,7 +198,7 @@
     </section>
 
     <!--==============PLACES================-->
-    <section class="place section container " id="place">
+    <section class="place section container " id="places">
        <h2 class="section-title">Choose Your Place    </h2>
         <div class="place__container container grid">
             <!-- =====================  PLACES CARD 1 =================-->
@@ -358,7 +369,7 @@
                     <h3 class="footer__subtitle">Company</h3>
                     <ul>
                         <li class="footer__item"><a href="" class="footer__link">Teams</a></li>
-                        <li class="footer__item"><a href="" class="footer__link">Become a member</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Booking</a></li>
                         <li class="footer__item"><a href="" class="footer__link">Contact Us</a></li>
                     </ul>
                 </div>
@@ -392,6 +403,7 @@
 
 </main>
 <!--============== SCROLL REVEAL================-->
+<script src="./assets/js/scrollreveal.min.js"></script>
 
 <!--============== SWIPER JS================-->
 <script src="./assets/js/swiper-bundle.min.js"></script>
